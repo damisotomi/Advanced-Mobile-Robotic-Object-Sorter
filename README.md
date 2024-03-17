@@ -6,9 +6,9 @@ An Arduino-powered mobile robot with PID control for precise path navigation and
   
 ## HOW IT WORKS
   -This advanced mobile robot sorter has 3 modes.
-### Mode 1. The robot moves on the line and stops when it gets to the end of its path if no obstacle is seen within a certain distance. 
-### Mode 2: Robot moves on the line, tries to pick up an object it senses but then continues its journey if no object was picked up
-### Mode 3, the robot moves on the line, picks up an actual object returns it to the base, and sorts based on color (Red to the left and others to the right)
+### Mode 1. The robot moves on a black line using PID control and stops when it gets to the end of its path if no obstacle is seen within a certain distance. 
+### Mode 2: Robot moves on the black line using PID control, tries to pick up an object it senses but then continues its journey if no object was picked up
+### Mode 3, the robot moves on the black line, picks up an actual object, returns it to the base, and sorts based on color (Red to the left and others to the right)
 
 ### MICROCONTROLLER AND PROGRAMMING LANGUAGE USED
   - An Arduino Uno Microcontroller was used to build this project as required by the project guidelines
