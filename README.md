@@ -18,13 +18,13 @@ An Arduino-powered mobile robot with PID control for precise path navigation and
 
 ### Components used
   - Ultrasonic distance sensor - For obstacle detection
-  - IR infrared Obstacle avoidance sensor
-  - TCS34725 Sensor Recognition Module RGB Sensor
-  - L298N Motor Driver
+  - IR infrared Obstacle avoidance sensor- To detect the presence of an object nearby
+  - TCS34725 Sensor Recognition Module RGB Sensor- To identify the color of the detected object
+  - L298N Motor Driver- To control the DC motors used to control the wheels of the car and also to receive 5v volts from the Arduino for logic circuitry of the wheels 
   - Qtr 8RC Reflectance Sensor array - for line detection and following 
   - Connecting wires
   - Resistors
-  - Gripper 3.0 - From parallax
+  - Gripper 3.0 - From parallax website- To grip objects
   - Standard Servo motors- To control the gripper opening and closing mechanism
 
 ### FUTURE IMPROVEMENTS
