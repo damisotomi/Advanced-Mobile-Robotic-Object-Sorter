@@ -4,6 +4,8 @@ An Arduino-powered mobile robot with PID control for precise path navigation and
 ## WHY IT WAS DEVELOPED
   The advanced mobile robot sorter was developed as part of my semester project for the advanced mechatronics course during my first year second semester in the mechanical engineering master program at New York University
   
+  ![image](https://github.com/damisotomi/Advanced-Mobile-Robotic-Object-Sorter-v1/assets/67606934/b3ebde0a-5c54-473c-946f-ea0ddf9fdaa8)
+  
 ## HOW IT WORKS
   -This advanced mobile robot sorter has 3 modes.
 ### Mode 1. The robot moves on a black line using PID control with a QTR 8RC sensor and stops at the end of its path if no obstacle is seen within a certain distance. 
@@ -28,8 +30,6 @@ An Arduino-powered mobile robot with PID control for precise path navigation and
 ### FUTURE IMPROVEMENTS
   - To replace the functionalities of the ultrasonic sensor, IR infared obstacle avoidance sensor, and TCS34725 sensor with a Pixy 2 camera for better obstacle detection
   - and more accurate color sorting as seen in Advanced-Mobile-Robotic-Object-Sorter v2
-
-![image](https://github.com/damisotomi/Advanced-Mobile-Robotic-Object-Sorter-v1/assets/67606934/b3ebde0a-5c54-473c-946f-ea0ddf9fdaa8)
 
 ### HOW TO USE
   - Create a black line path using black tape on a white surface for the robot to follow
