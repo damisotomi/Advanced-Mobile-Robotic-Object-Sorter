@@ -1,4 +1,4 @@
-# Advanced-Mobile-Robotic-Object-Sorter
+# Advanced-Mobile-Robotic-Object-Sorter-v1
 An Arduino-powered mobile robot with PID control for precise path navigation and object sorting. Utilized a QTR sensor for line detection, a gripping mechanism, and color identification for automated object retrieval and sorting based on color criteria  
 
 ## WHY IT WAS DEVELOPED
