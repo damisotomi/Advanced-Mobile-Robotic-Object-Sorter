@@ -1,13 +1,13 @@
 # Advanced-Mobile-Robotic-Object-Sorter
-An Arduino-powered mobile robot with PID control for precise path navigation and object sorting. Utilized a gripping mechanism and color identification for automated object retrieval and sorting based on color criteria  
+An Arduino-powered mobile robot with PID control for precise path navigation and object sorting. Utilized a QTR sensor for line detection, a gripping mechanism, and color identification for automated object retrieval and sorting based on color criteria  
 
 ## WHY IT WAS DEVELOPED
   The advanced mobile robot sorter was developed as part of my semester project for the advanced mechatronics course during my first year second semester in the mechanical engineering master program at New York University
   
 ## HOW IT WORKS
   -This advanced mobile robot sorter has 3 modes.
-### Mode 1. The robot moves on a black line using PID control and stops when it gets to the end of its path if no obstacle is seen within a certain distance. 
-### Mode 2: Robot moves on the black line using PID control, tries to pick up an object it senses but then continues its journey if no object was picked up
+### Mode 1. The robot moves on a black line using PID control with a QTR 8RC sensor and stops at the end of its path if no obstacle is seen within a certain distance. 
+### Mode 2: Robot moves on the black line using PID control with a QTR 8RC sensor, tries to pick up an object it senses but then continues its journey if no object was picked up
 ### Mode 3, the robot moves on the black line, picks up an actual object, returns it to the base, and sorts based on color (Red to the left and others to the right)
 
 ### MICROCONTROLLER AND PROGRAMMING LANGUAGE USED
@@ -19,7 +19,7 @@ An Arduino-powered mobile robot with PID control for precise path navigation and
   - IR infrared Obstacle avoidance sensor
   - TCS34725 Sensor Recognition Module RGB Sensor
   - L298N Motor Driver
-  - Qtr 8RC Reflectance Sensor array - for line following 
+  - Qtr 8RC Reflectance Sensor array - for line detection and following 
   - Connecting wires
   - Resistors
   - Gripper 3.0 - From parallax
@@ -27,7 +27,8 @@ An Arduino-powered mobile robot with PID control for precise path navigation and
 
 ### FUTURE IMPROVEMENTS
   - To replace the functionalities of the ultrasonic sensor, IR infared obstacle avoidance sensor, and TCS34725 sensor with a Pixy 2 camera for better obstacle detection
-  - and more accurate color sorting.
+  - and more accurate color sorting as seen in Advanced-Mobile-Robotic-Object-Sorter v2
+
 
 ### HOW TO USE
   - Create a black line path using black tape on a white surface for the robot to follow
