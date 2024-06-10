@@ -38,4 +38,4 @@ An Arduino-powered mobile robot with PID control for precise path navigation and
   - watch as the robot moves along the path and picks up obstacles
 
 ### Live demo
-https://drive.google.com/file/d/1b-3PlHTEjwaR0bIDIo_oKqriqa6O3WmA/view?usp=sharing
+ [video demo](https://drive.google.com/file/d/1b-3PlHTEjwaR0bIDIo_oKqriqa6O3WmA/view?usp=sharing)
