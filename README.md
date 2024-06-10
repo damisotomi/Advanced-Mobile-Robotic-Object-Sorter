@@ -29,6 +29,7 @@ An Arduino-powered mobile robot with PID control for precise path navigation and
   - To replace the functionalities of the ultrasonic sensor, IR infared obstacle avoidance sensor, and TCS34725 sensor with a Pixy 2 camera for better obstacle detection
   - and more accurate color sorting as seen in Advanced-Mobile-Robotic-Object-Sorter v2
 
+![image](https://github.com/damisotomi/Advanced-Mobile-Robotic-Object-Sorter-v1/assets/67606934/b3ebde0a-5c54-473c-946f-ea0ddf9fdaa8)
 
 ### HOW TO USE
   - Create a black line path using black tape on a white surface for the robot to follow
